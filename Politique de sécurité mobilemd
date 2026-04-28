@@ -1,0 +1,37 @@
+Politique de Sécurité Mobile (Story 10)
+Auteur : BELARIF Mohamed
+
+Entité : ESIEE IT
+
+Contexte : Audit de l'application "Nickel" (v2.12.0)
+
+1. Protection des Données et Secrets
+Zéro Secret en Clair : Interdiction formelle d'inclure des clés d'API (google_api_key), des URLs de serveurs de base de données (firebase_database_url) ou des endpoints de production dans le fichier strings.xml.
+
+Gestion des Clés : Utilisation impérative du Android Keystore System pour stocker les informations sensibles. Les secrets doivent être récupérés de manière dynamique via un coffre-fort numérique (type HashiCorp Vault) après authentification de l'app.
+
+Obscurcissement (Obfuscation) : Mise en œuvre de R8/ProGuard pour renommer les classes et méthodes, rendant l'analyse par apktool et la lecture du code source beaucoup plus complexe pour un attaquant.
+
+2. Intégrité de l'Application
+Signature Multi-Schémas : Pour contrer la vulnérabilité Janus identifiée, toute application doit obligatoirement être signée avec les schémas v2 et v3. Le schéma v1 seul est proscrit.
+
+Auto-Vérification d'Intégrité : L'application doit intégrer un mécanisme de contrôle au démarrage (Checksum) pour vérifier si son propre code a été modifié (Repackaging). Si le hash ne correspond pas à l'original, l'application doit se fermer.
+
+3. Durcissement Cryptographique
+Algorithmes Robustes : Remplacement immédiat de MD5 (identifié comme vulnérable aux collisions par MobSF) par des algorithmes de hachage sécurisés comme SHA-256 ou SHA-3.
+
+Sécurisation du Transport (TLS) : Implémentation du Certificate Pinning pour les communications avec api.nickel.eu afin d'empêcher les interceptions de trafic via des proxys ou des certificats frauduleux.
+
+4. Surveillance et Audit
+Contrôles Anti-Tamper : Détection du Root et des Émulateurs. Les fonctionnalités bancaires critiques doivent être désactivées si l'environnement d'exécution est jugé non sécurisé (Kali, émulateurs, etc.).
+
+Analyse Continue (DevSecOps) : Intégration systématique d'un scanneur de vulnérabilités (type MobSF) dans le cycle de développement pour bloquer tout commit contenant des secrets en clair ou des permissions excessives.
+
+Pourquoi cette politique est-elle efficace ?
+En appliquant ces règles, l'application Nickel serait protégée contre les manipulations que nous avons effectuées :
+
+Le pirate ne trouverait rien d'utile dans strings.xml.
+
+L'APK modifié ne s'installerait pas (ou ne s'exécuterait pas) grâce au contrôle d'intégrité.
+
+La vulnérabilité Janus serait comblée par la signature v2/v3.
