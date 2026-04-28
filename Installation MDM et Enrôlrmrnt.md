@@ -29,13 +29,52 @@ Dans le cas d'un mobile profissionel
 Après avoir installer l'application sur le mobile personnel , celle ci n'offre pas la possibilité de scanner un QR-CODE et ne fourni pas de code pin pour pouvoir s'authtifier et ensuite enrôller, nous avons opté pour l'option compagny/user
 <img width="1604" height="638" alt="image" src="https://github.com/user-attachments/assets/f9f2baac-76dc-4a1f-a0e3-257a7c192bc1" />
 
-Create enrollement credential
+Créer l'enrelôment avec envoi d'un code pin
 <img width="1618" height="577" alt="image" src="https://github.com/user-attachments/assets/42b0becb-4138-455f-874d-d991c33127b6" />
 <img width="704" height="469" alt="image" src="https://github.com/user-attachments/assets/70979bdf-a14f-47ad-8833-2eec80836774" />
 
 Un username a bien été crée avec un pin mais l'enrelement a échoué sur un smatphone personnel.
 <img width="360" height="750" alt="image" src="https://github.com/user-attachments/assets/88122667-d82d-4fc0-ab1b-8b032540a58d" />
+<img width="889" height="674" alt="image" src="https://github.com/user-attachments/assets/f8e358f9-0587-44ae-81b7-4a2ce8ff8318" />
+
+## Option Emulateur: ##
+Utiliser un émulateur est la méthode la plus propre car il sera considéré comme un appareil "neuf", ce qui permettra à Miradore d'en prendre le contrôle total sans conflit avec les données personnelles.
+Nous avons opté pour Installation d'Android Studio une fois installer :
+
+Cliquer sur le bouton "Create Device"
+
+<img width="882" height="682" alt="image" src="https://github.com/user-attachments/assets/3496123e-7a23-4864-b8d9-1be4206ab3fc" />
+
+Pour le "System Image", télécharger et sélectionner "Tiramisu" (Android 13)
+<img width="1262" height="824" alt="image" src="https://github.com/user-attachments/assets/1fe31427-1c17-4ef8-aad0-c3d4d090861f" />
+
+## Enrôlement MDM sur l'émulateur 
+Une fois que l'émulateur est démarré et affiche l'écran de "Bienvenue" (Hello) :
 ![Uploading image.png…]()
+
+
+Le "Secret" Android Enterprise : Ne cliquer pas sur "Démarrer". Tapoter 7 fois très vite sur une zone vide de l'écran.
+
+Cela va activer le scanner de QR Code caché.
+
+Android demander de te connecter au Wi-Fi. (L'émulateur se connectera au Wi-Fi virtuel "AndroidWifi").
+
+Une fois connecté, l'appareil photo de l'émulateur va s'ouvrir.
+
+Scan : Utiliser la webcam du PC pour scanner le QR Code de Miradore celui du mode Fully Managed .
+
+Astuce : Si tu n'as pas de webcam, tu peux copier le lien de l'image du QR code dans le navigateur de l'émulateur.
+
+4. Validation finale
+L'émulateur va dire : "Cet appareil appartient à votre organisation".
+
+Il va installer automatiquement l'application Miradore.
+
+Capture d'écran 1 : L'émulateur affichant "Appareil géré".
+
+Capture d'écran 2 : Dans ta console Miradore sur Kali, ton émulateur apparaîtra enfin dans Devices.
+
+
 
 xxdqs
 
