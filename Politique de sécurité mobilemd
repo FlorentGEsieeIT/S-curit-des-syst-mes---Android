@@ -1,7 +1,5 @@
 Politique de Sécurité Mobile (Story 10)
-Auteur : BELARIF Mohamed
 
-Entité : ESIEE IT
 
 Contexte : Audit de l'application "Nickel" (v2.12.0)
 
@@ -18,7 +16,7 @@ Signature Multi-Schémas : Pour contrer la vulnérabilité Janus identifiée, to
 Auto-Vérification d'Intégrité : L'application doit intégrer un mécanisme de contrôle au démarrage (Checksum) pour vérifier si son propre code a été modifié (Repackaging). Si le hash ne correspond pas à l'original, l'application doit se fermer.
 
 3. Durcissement Cryptographique
-Algorithmes Robustes : Remplacement immédiat de MD5 (identifié comme vulnérable aux collisions par MobSF) par des algorithmes de hachage sécurisés comme SHA-256 ou SHA-3.
+Remplacement de MD5 (identifié comme vulnérable aux collisions par MobSF) par des algorithmes de hachage sécurisés comme SHA-256 ou SHA-3.
 
 Sécurisation du Transport (TLS) : Implémentation du Certificate Pinning pour les communications avec api.nickel.eu afin d'empêcher les interceptions de trafic via des proxys ou des certificats frauduleux.
 
