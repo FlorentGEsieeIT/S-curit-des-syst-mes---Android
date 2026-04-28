@@ -48,9 +48,11 @@ Cliquer sur le bouton "Create Device"
 Pour le "System Image", télécharger et sélectionner "Tiramisu" (Android 13)
 <img width="1262" height="824" alt="image" src="https://github.com/user-attachments/assets/1fe31427-1c17-4ef8-aad0-c3d4d090861f" />
 
+
 ## Enrôlement MDM sur l'émulateur 
 Une fois que l'émulateur est démarré et affiche l'écran de "Bienvenue" (Hello) :
-![Uploading image.png…]()
+<img width="412" height="870" alt="image" src="https://github.com/user-attachments/assets/50afa04a-0864-4f1d-90a2-84ed23b2f526" />
+
 
 
 Le "Secret" Android Enterprise : Ne cliquer pas sur "Démarrer". Tapoter 7 fois très vite sur une zone vide de l'écran.
