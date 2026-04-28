@@ -8,7 +8,8 @@ ___________________
 
 | Extrait du code | Risque associé |
 | :--- | :--- |
+| `<string name="google_api_key">AIzaSyBTgztvImsUfMWDa41PCrDWAj7dmyIDhUg</string>` | Élevé : Permet l'utilisation frauduleuse des services Cloud aux frais de l'entreprise. |
+| `<string name="firebase_database_url">https://application-client-nickel.firebaseio.com/</string>` | Élevé : URL de la base de données Firebase. Permet de cibler des attaques d'injection ou d'exfiltration si les règles de sécurité sont mal configurées. |
+| `ACCOUNT_ENDPOINT : https://api.nickel.eu/...` | Moyen : Divulgation des points d'entrée (endpoints) de l'API bancaire, facilitant le reverse-engineering du protocole de communication. |
 
 
-
-La présence de clés API en clair dans les ressources XML est une faille de sécurité. Il est recommandé d'utiliser des variables d'environnement ou un coffre-fort numérique (Vault).
