@@ -5,14 +5,14 @@ Aller dans le menu Management/configuration profiles cliquer sur Add ensuite cho
  Ensuite selectionner Passcode
  <img width="1161" height="466" alt="image" src="https://github.com/user-attachments/assets/c558b9e4-f29a-4119-b454-87a65165c0c4" />
 
- Ensuite réglage du paramamétre du passcode à 12 caractères minimum en alphanumérique dans notre cas de test 
+ Ensuite réglage du paramamétre du passcode à 12 caractères minimum en alphanumérique dans notre cas de test? Enfin nommé la règle
  <img width="604" height="267" alt="image" src="https://github.com/user-attachments/assets/d8f2aefd-97b4-4688-b9c6-35a61dce418b" />
 
  
 <img width="663" height="441" alt="image" src="https://github.com/user-attachments/assets/fc11e28f-46b9-41c2-937d-c85585ec9a79" />
-Enfin nommé la règle
-<img width="958" height="521" alt="image" src="https://github.com/user-attachments/assets/607c8a4e-d470-46f8-bb60-b157ac7fb3d4" />
 Verifier la règle dans la liste :
+<img width="958" height="521" alt="image" src="https://github.com/user-attachments/assets/607c8a4e-d470-46f8-bb60-b157ac7fb3d4" />
+
 <img width="881" height="691" alt="image" src="https://github.com/user-attachments/assets/beb97194-88ba-40ae-8fb8-890fcdbcc5e6" />  
 
 ## Enrôlement du smartphone ##
