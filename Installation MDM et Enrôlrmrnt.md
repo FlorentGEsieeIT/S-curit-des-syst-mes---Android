@@ -8,9 +8,9 @@ Aller dans le menu Management/configuration profiles cliquer sur Add ensuite cho
  Ensuite réglage du paramamétre du passcode à 12 caractères minimum en alphanumérique dans notre cas de test 
  <img width="604" height="267" alt="image" src="https://github.com/user-attachments/assets/d8f2aefd-97b4-4688-b9c6-35a61dce418b" />
 
-Enfin nommé la règle 
+ 
 <img width="663" height="441" alt="image" src="https://github.com/user-attachments/assets/fc11e28f-46b9-41c2-937d-c85585ec9a79" />
-
+Enfin nommé la règle
 <img width="958" height="521" alt="image" src="https://github.com/user-attachments/assets/607c8a4e-d470-46f8-bb60-b157ac7fb3d4" />
 Verifier la règle dans la liste :
 <img width="881" height="691" alt="image" src="https://github.com/user-attachments/assets/beb97194-88ba-40ae-8fb8-890fcdbcc5e6" />  
@@ -37,13 +37,21 @@ Un username a bien été crée avec un pin mais l'enrelement a échoué sur un s
 <img width="360" height="750" alt="image" src="https://github.com/user-attachments/assets/88122667-d82d-4fc0-ab1b-8b032540a58d" />
 ![Uploading image.png…]()
 
+xxdqs
+
+
+qsdqD
 
 
 
 
 
 
-N'ayant pas de téléphone pro
+
+
+
+
+
 
 
 
