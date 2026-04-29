@@ -2,6 +2,8 @@
 # Cration de la règle du mot de passe à respecter #
 Aller dans le menu Management/configuration profiles cliquer sur Add ensuite choisir Android 
  <img width="1472" height="622" alt="image" src="https://github.com/user-attachments/assets/622cc8cf-83a0-4db2-83b0-a5b5a4a6107f" />
+
+ 
  Ensuite selectionner Passcode
  <img width="1161" height="466" alt="image" src="https://github.com/user-attachments/assets/c558b9e4-f29a-4119-b454-87a65165c0c4" />
 
