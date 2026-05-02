@@ -1,7 +1,7 @@
-Politique de Sécurité Mobile (Story 10)
+Politique de Sécurité Mobile
 
 
-Contexte : Audit de l'application "Nickel" (v2.12.0)
+Contexte : Audit de l'application "Nickel"
 
 1. Protection des Données et Secrets
 Zéro Secret en Clair : Interdiction formelle d'inclure des clés d'API (google_api_key), des URLs de serveurs de base de données (firebase_database_url) ou des endpoints de production dans le fichier strings.xml.
