@@ -27,13 +27,17 @@ Aller dans le menu Enrollment puis Android Entreprise dans le cas de notre test 
 ## Sur le smartphone ##
 
 Télécharger l'application Miradore Online Client sur le Play Store ensuite scanner le QR-CODE 
+
 Dans le cas d'un mobile profissionel 
+
 <img width="1570" height="413" alt="image" src="https://github.com/user-attachments/assets/e71979ef-95fb-415d-95f5-fd4084c28062" />
 
 Après avoir installer l'application sur le mobile personnel , celle ci n'offre pas la possibilité de scanner un QR-CODE et ne fourni pas de code pin pour pouvoir s'authtifier et ensuite enrôller, nous avons opté pour l'option compagny/user
-<img width="1604" height="638" alt="image" src="https://github.com/user-attachments/assets/f9f2baac-76dc-4a1f-a0e3-257a7c192bc1" />
+
 
 Créer l'enrelôment avec envoi d'un code pin
+
+<img width="1604" height="638" alt="image" src="https://github.com/user-attachments/assets/f9f2baac-76dc-4a1f-a0e3-257a7c192bc1" />
 <img width="1618" height="577" alt="image" src="https://github.com/user-attachments/assets/42b0becb-4138-455f-874d-d991c33127b6" />
 <img width="704" height="469" alt="image" src="https://github.com/user-attachments/assets/70979bdf-a14f-47ad-8833-2eec80836774" />
 
@@ -54,11 +58,13 @@ Pour le "System Image", télécharger et sélectionner "Tiramisu" (Android 13)
 
 
 ## Enrôlement MDM sur l'émulateur 
-Une fois que l'émulateur est démarré et affiche l'écran de "Bienvenue" (Hello) :
+Une fois que l'émulateur est démarré  :
 <img width="412" height="870" alt="image" src="https://github.com/user-attachments/assets/50afa04a-0864-4f1d-90a2-84ed23b2f526" />
 
 
-L'emulateur plente pour des raison de 
+L'emulateur plente pour des raison puisance processeur et RAM
+
+# Tentative avec un Motorola remis à zero :
 
 
 
