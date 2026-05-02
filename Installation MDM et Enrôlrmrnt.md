@@ -96,6 +96,19 @@ Le problème ne vient pas du TLS dans notre cas, mais plutôt du fait que Androi
 Résultat : le serveur refuse implicitement l’inscription du device ou ne parvient pas à finaliser le processus, ce qui se traduit côté client par une erreur générique d’authentification. En pratique, Android 7 n’est plus pleinement compatible avec les workflows MDM cloud récents, ce qui rend l’enrôlement instable voire impossible malgré une connectivité réseau et TLS fonctionnels.
 
 
+## Profil professionel a bien été crée : ##
+
+<img width="434" height="855" alt="image" src="https://github.com/user-attachments/assets/e836c2c9-c274-40b5-8d29-891baabc1b34" />
+
+
+Ce que ça veut dire concrètement
+
+Android 7 arrive encore à créer un profil de travail appliquer le conteneur sécurisé mais il échoue souvent sur la communication complète avec le backend MDM,application des politiques modernes et 
+gestion fine des comptes et tokens
+
+D’où l'état actuel :profil créé mais enrôlement non totalement fonctionnel
+
+
 
 
 
