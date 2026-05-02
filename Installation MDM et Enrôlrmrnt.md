@@ -69,6 +69,19 @@ L'emulateur plente pour des raison puisance processeur et RAM
 
 # Tentative avec un Motorola remis à zero :
 
+Installation de l'application Miradore online client,une fois l'application démarrée nous avons configuré un profil professional:
+<img width="425" height="862" alt="image" src="https://github.com/user-attachments/assets/2830d942-82cf-47f0-9a78-b401586e8b78" />
+
+Miradore exige le chiffrement des données pour mieux les sécurisées.
+
+<img width="465" height="830" alt="image" src="https://github.com/user-attachments/assets/8784d4f9-7b66-46c0-9e7b-b9d181745984" />
+
+Une fois les données chiffrées, l'étape suivante consiste à confugurer 
+
+
+
+
+
 
 
 Le "Secret" Android Enterprise : Ne cliquer pas sur "Démarrer". Tapoter 7 fois très vite sur une zone vide de l'écran.
