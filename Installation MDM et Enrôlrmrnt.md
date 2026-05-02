@@ -44,7 +44,7 @@ Créer l'enrelôment avec envoi d'un code pin
 <img width="802" height="711" alt="image" src="https://github.com/user-attachments/assets/7122d869-a68e-4ffd-840e-e4ad3eb283dc" />
 
 
-Un username a bien été crée avec un pin mais l'enrelement a échoué sur un smatphone personnel.
+
 <img width="360" height="750" alt="image" src="https://github.com/user-attachments/assets/88122667-d82d-4fc0-ab1b-8b032540a58d" />
 <img width="889" height="674" alt="image" src="https://github.com/user-attachments/assets/f8e358f9-0587-44ae-81b7-4a2ce8ff8318" />
 
