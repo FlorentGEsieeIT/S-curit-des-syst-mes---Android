@@ -28,11 +28,13 @@ Aller dans le menu Enrollment puis Android Entreprise dans le cas de notre test 
 
 Télécharger l'application Miradore Online Client sur le Play Store ensuite scanner le QR-CODE 
 
-Dans le cas d'un mobile profissionel 
+Dans le cas d'un mobile profissionel avec un nom de domaine existant l'opération aurai terminé avec succès avec le scann du QR-code
+
+Après avoir installer l'application sur le mobile personnel , celle ci n'offre pas la possibilité de scanner un QR-CODE et ne fourni pas de code pin pour pouvoir s'authtifier et ensuite enrôller, nous avons opté pour l'option compagny/user
 
 <img width="1570" height="413" alt="image" src="https://github.com/user-attachments/assets/e71979ef-95fb-415d-95f5-fd4084c28062" />
 
-Après avoir installer l'application sur le mobile personnel , celle ci n'offre pas la possibilité de scanner un QR-CODE et ne fourni pas de code pin pour pouvoir s'authtifier et ensuite enrôller, nous avons opté pour l'option compagny/user
+
 
 
 Créer l'enrelôment avec envoi d'un code pin
