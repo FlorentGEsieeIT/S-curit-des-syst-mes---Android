@@ -83,7 +83,13 @@ Miradore exige le chiffrement des données pour mieux les sécurisées.
 
 <img width="465" height="830" alt="image" src="https://github.com/user-attachments/assets/8784d4f9-7b66-46c0-9e7b-b9d181745984" />
 
-Une fois les données chiffrées, l'étape suivante consiste à confugurer 
+
+Une fois les données chiffrées, l'étape suivante consiste à confugurer Miradore en acceptant les condition de collecte de données et autoriser la localisation esnuite la page de l'authentification.
+
+<img width="458" height="860" alt="image" src="https://github.com/user-attachments/assets/5e454112-ed76-423c-8b9d-32c9c461a7c5" />
+
+
+
 
 
 
