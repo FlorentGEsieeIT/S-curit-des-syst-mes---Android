@@ -17,10 +17,12 @@ Aller dans le menu Management/configuration profiles cliquer sur Add ensuite cho
 
 <img width="958" height="521" alt="image" src="https://github.com/user-attachments/assets/607c8a4e-d470-46f8-bb60-b157ac7fb3d4" />
 
-<img width="881" height="691" alt="image" src="https://github.com/user-attachments/assets/beb97194-88ba-40ae-8fb8-890fcdbcc5e6" />  
-
 ## Enrôlement du smartphone ##
 Aller dans le menu Enrollment puis Android Entreprise dans le cas de notre test sur un téléphone personnel nous avons opté pour l'option " Fully managed with work profile" Cela va créer un conteneur sécurisé sur le smartphone,les applications personnelles restent privées, et les applications "Pro" sont marquées d'un petit cartable.
+
+<img width="881" height="691" alt="image" src="https://github.com/user-attachments/assets/beb97194-88ba-40ae-8fb8-890fcdbcc5e6" />  
+
+
 
 ## Sur le smartphone ##
 
@@ -54,6 +56,9 @@ Pour le "System Image", télécharger et sélectionner "Tiramisu" (Android 13)
 ## Enrôlement MDM sur l'émulateur 
 Une fois que l'émulateur est démarré et affiche l'écran de "Bienvenue" (Hello) :
 <img width="412" height="870" alt="image" src="https://github.com/user-attachments/assets/50afa04a-0864-4f1d-90a2-84ed23b2f526" />
+
+
+L'emulateur plente pour des raison de 
 
 
 
