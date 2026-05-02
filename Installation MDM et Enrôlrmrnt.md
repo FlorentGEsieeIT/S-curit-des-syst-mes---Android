@@ -91,39 +91,15 @@ Une fois les données chiffrées, l'étape suivante consiste à confugurer Mirad
 
 
 
+Le problème ne vient pas du TLS dans notre cas, mais plutôt du fait que Android 7  est devenu obsolète pour les solutions MDM modernes comme Miradore. Même si la couche TLS fonctionne techniquement (test sur le navigateur ), cette version d’Android ne supporte plus correctement certaines exigences actuelles du protocole d’enrôlement (API Android Enterprise, mécanismes d’authentification récents, gestion des profils de travail, politiques de sécurité renforcées). 
+
+Résultat : le serveur refuse implicitement l’inscription du device ou ne parvient pas à finaliser le processus, ce qui se traduit côté client par une erreur générique d’authentification. En pratique, Android 7 n’est plus pleinement compatible avec les workflows MDM cloud récents, ce qui rend l’enrôlement instable voire impossible malgré une connectivité réseau et TLS fonctionnels.
 
 
 
 
 
 
-Le "Secret" Android Enterprise : Ne cliquer pas sur "Démarrer". Tapoter 7 fois très vite sur une zone vide de l'écran.
-
-Cela va activer le scanner de QR Code caché.
-
-Android demander de te connecter au Wi-Fi. (L'émulateur se connectera au Wi-Fi virtuel "AndroidWifi").
-
-Une fois connecté, l'appareil photo de l'émulateur va s'ouvrir.
-
-Scan : Utiliser la webcam du PC pour scanner le QR Code de Miradore celui du mode Fully Managed .
-
-Astuce : Si tu n'as pas de webcam, tu peux copier le lien de l'image du QR code dans le navigateur de l'émulateur.
-
-4. Validation finale
-L'émulateur va dire : "Cet appareil appartient à votre organisation".
-
-Il va installer automatiquement l'application Miradore.
-
-Capture d'écran 1 : L'émulateur affichant "Appareil géré".
-
-Capture d'écran 2 : Dans ta console Miradore sur Kali, ton émulateur apparaîtra enfin dans Devices.
-
-
-
-xxdqs
-
-
-qsdqD
 
 
 
