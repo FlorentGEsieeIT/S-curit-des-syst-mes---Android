@@ -12,17 +12,15 @@ Aller dans le menu Management/configuration profiles cliquer sur Add ensuite cho
 
  <img width="604" height="267" alt="image" src="https://github.com/user-attachments/assets/d8f2aefd-97b4-4688-b9c6-35a61dce418b" />
 
- 
+ Verifier la règle dans la liste :
 <img width="663" height="441" alt="image" src="https://github.com/user-attachments/assets/fc11e28f-46b9-41c2-937d-c85585ec9a79" />
-Verifier la règle dans la liste :
+
 <img width="958" height="521" alt="image" src="https://github.com/user-attachments/assets/607c8a4e-d470-46f8-bb60-b157ac7fb3d4" />
 
 <img width="881" height="691" alt="image" src="https://github.com/user-attachments/assets/beb97194-88ba-40ae-8fb8-890fcdbcc5e6" />  
 
 ## Enrôlement du smartphone ##
-Aller dans le menu Enrollment puis Android Entreprise dans le cas de notre test sur un téléphone personnel nous avons opté pour l'option " Fully managed with work profile" Cela va créer un conteneur sécurisé sur le smartphone,les applications personnelles restent privées, et les applications "Pro" sont marquées d'un petit cartable bleu.
-
-<img width="1004" height="789" alt="image" src="https://github.com/user-attachments/assets/89966118-377b-4aa9-aad0-653398f836a6" />
+Aller dans le menu Enrollment puis Android Entreprise dans le cas de notre test sur un téléphone personnel nous avons opté pour l'option " Fully managed with work profile" Cela va créer un conteneur sécurisé sur le smartphone,les applications personnelles restent privées, et les applications "Pro" sont marquées d'un petit cartable.
 
 ## Sur le smartphone ##
 
