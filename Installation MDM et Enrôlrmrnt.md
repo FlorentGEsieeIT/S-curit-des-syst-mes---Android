@@ -70,6 +70,13 @@ L'emulateur plente pour des raison puisance processeur et RAM
 # Tentative avec un Motorola remis à zero :
 
 Installation de l'application Miradore online client,une fois l'application démarrée nous avons configuré un profil professional:
+
+<img width="490" height="861" alt="image" src="https://github.com/user-attachments/assets/da39b9c0-a1aa-49ed-a42a-8257cbda1199" />
+<img width="502" height="862" alt="image" src="https://github.com/user-attachments/assets/8e0da969-039b-42aa-82eb-26049925d247" />
+<img width="430" height="826" alt="image" src="https://github.com/user-attachments/assets/bdf46516-f435-4104-81e4-862d4c025342" />
+
+
+
 <img width="425" height="862" alt="image" src="https://github.com/user-attachments/assets/2830d942-82cf-47f0-9a78-b401586e8b78" />
 
 Miradore exige le chiffrement des données pour mieux les sécurisées.
